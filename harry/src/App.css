@@ -1,0 +1,326 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.dropbtn {
+background-color: #04AA6D;
+color: white;
+padding: 14px;
+font-size: 16px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: none;
+}
+
+.dropdown {
+position: fixed;
+display: inline-block;
+left: 10px;
+top: 10px;
+z-index: 99;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: none;
+z-index: 1;
+
+}
+.dropdown-content-two {
+  display: none;
+  position: absolute;
+  background-color: none;
+  z-index: 1;
+  left: 60px;
+  top: 0px;
+ 
+}
+
+.drpbtn {
+  background-color: #04AA6D;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  overflow: hidden;
+}
+.drpbtn-two {
+  background-color: #04AA6D;
+  text-decoration: none;
+  margin: 10px 0 10px 10px;
+  height: 60px;
+  display: block;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+
+
+.dropdown-content:hover .dropdown-content-two {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Hero  */
+.hero {
+  background: linear-gradient(to bottom, rgba(120, 120, 120, 0.52), rgba(0, 0, 0, 0.73)), url('https://e1.pxfuel.com/desktop-wallpaper/271/882/desktop-wallpaper-peaceful-places-natural-place.jpg');
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+Link {
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  color: #fff;
+}
+/* CLOSED HERO */
+
+/* Portfolio css */
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
+}
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url(https://source.unsplash.com/De8wMYoSSBc);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+.image-con {
+  position: sticky;
+  top: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(120, 120, 120, 0.52), rgba(0, 0, 0, 0.73)), url('https://source.unsplash.com/1600x900/?nature,animals');
+  background-position: center;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+}
+.image-con::-webkit-scrollbar {
+  display: none;
+}
+#images {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+}
+.img-section {
+  max-width: 400px;
+  min-width: 200px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: rgba(24, 24, 24, 0.608);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.img-section:hover {
+  background-color: rgba(0, 255, 123, 0.503);
+}
+.img-container {
+  width: 100%;
+  height: auto;
+}
+
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background:  rgba(0, 255, 123, 0.868);
+  color: white;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: 1px dotted #fff;
+  border-right: 1px dotted #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: red;
+}
+/*Screen Sizes 1018px +*/
+@media(max-width: 1130px) {
+  .img-section {
+    width: 40%;
+    
+  }
+}
+/*Screen Sizes 700px +*/
+@media(max-width: 920px) {
+  .img-section {
+    width: 40%;
+    margin: 2%;
+  }
+}
+/*Screen Sizes 500px +*/
+@media(max-width: 720px) {
+  .img-section {
+    width: 100%;
+    margin: 1%;
+  }
+  #images {
+    width: 88%;
+    margin: auto;
+    justify-content: center;
+  }
+}
+/*Screen Sizes 500px +*/
+@media(min-width: 720px) {
+  #landing {
+      display: flex;
+      height: 100%;
+  }
+
+  #landing-text {
+      height: 100vh;
+  }
+
+  #landing-image {
+      height: 100vh;
+  }
+}
+
+/*Screen Sizes 700px +*/
+
+@media(min-width: 43.75rem) {
+  .btn {
+      padding: 1rem 3rem;
+  }
+}
+/* CLOSED PORTFOLIO */
